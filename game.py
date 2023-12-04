@@ -86,9 +86,9 @@ class App:
                 12,
             )
 
-            pyxel.text(13, 56, "** Gevinst! **", pyxel.frame_count % 16)
-            pyxel.text(13, 63, "30 kr. prepaid", 5)
-            pyxel.text(13, 70, "til TrustyBox!", 5)
+            pyxel.text(13, 56, "** Glædelig **", pyxel.frame_count % 16)
+            pyxel.text(13, 63, "**   jul!   **", pyxel.frame_count % 16)
+
             
         elif self.started:
             pyxel.cls(0)
